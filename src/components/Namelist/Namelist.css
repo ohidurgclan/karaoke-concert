@@ -1,0 +1,12 @@
+.selected-item {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.selected-img {
+    height:auto;
+    width: 50px;
+}
+.selected-performer {
+    padding: 15px;
+}

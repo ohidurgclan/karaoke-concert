@@ -1,0 +1,43 @@
+.card {
+    position: relative;
+    word-wrap: break-word;
+    box-shadow: 5px 5px 10px lightgrey;
+    background-color: #e3f9ef;
+    background-clip: border-box;
+    border: 1px solid #3bb77e;
+    border-radius: .25rem;
+    height:100%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.card-image {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-btn {
+    margin-top: 15px;
+    background-color: #3bb77e;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #3bb77e;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+.performer-details {
+    height: 235px;
+    text-align: left;
+    padding-left: 20px;
+}
+.rating-color {
+    color: #fdc140;
+}
+.social-link {
+    text-align: left;
+    padding-left: 20px;
+}
+.social-link i {
+    color: #0d8af0;
+}
