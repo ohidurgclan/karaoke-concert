@@ -5,7 +5,7 @@ const Namelist = (props) => {
     return (
         <div className="selected-item">
             <img className="selected-img" src={img} alt="" />
-            <h5 className="selected-performer">{name}</h5>
+            <h4 className="selected-performer">{name}</h4>
         </div>
     );
 };

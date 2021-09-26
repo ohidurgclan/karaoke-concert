@@ -8,6 +8,7 @@ const Header = () => {
                 <div className="header-details">
                     <img className='logo' src={logo} alt='logo' />
                     <h1>Welcome To <span className="name-color"> National Karaoke Concert</span> 2021</h1>
+                    <h2>Total Budget:  <span className="name-color"> $5000</span></h2>
                 </div>
                 <div>
                     <nav className='nav-bar'>

@@ -9,12 +9,9 @@ const Cart = (props) => {
         <div className="added-persion">
             <div>
                 <h2 className="cart-h2"><i className="fas fa-user-plus"></i>  Added Performer</h2>
-                <h4>Performer Count: {props.mugician.length}</h4>
-                <br />
+                <h4 className="performer-h4">Performer Count: {props.mugician.length}</h4>
                 <h4>Total Salary: ${total.toFixed(2)}</h4>
-                <br/>
                 <h2 className="cart-h2">Selected Performer</h2>
-                <br/>
                 {
                     mugician.map(data => <Namelist
                         key={data.key}
@@ -22,6 +19,7 @@ const Cart = (props) => {
                     >
                     </Namelist> )
                 }
+                <button className="cart-btn"><i className="fas fa-user-plus"></i>  Add List</button>
             </div>
         </div>
     );
